@@ -5,7 +5,7 @@
 import React, {Component} from 'react';
 import RaisedButton from 'material-ui/RaisedButton';
 import Dialog from 'material-ui/Dialog';
-import {deepOrange500} from 'material-ui/styles/colors';
+import {yellow700} from 'material-ui/styles/colors';
 import FlatButton from 'material-ui/FlatButton';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
@@ -19,7 +19,7 @@ const styles = {
 
 const muiTheme = getMuiTheme({
   palette: {
-    accent1Color: deepOrange500,
+    accent1Color: yellow700,
   },
 });
 
@@ -67,8 +67,8 @@ class Main extends Component {
           >
             1-2-3-4-5
           </Dialog>
-          <h1>Material-UI</h1>
-          <h2>example project</h2>
+          <h1>The Yellow Pokemon</h1>
+          <h2>Pi pika पिकाचू! Yo</h2>
           <RaisedButton
             label="Super Secret Password"
             secondary={true}
