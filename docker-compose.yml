@@ -1,0 +1,12 @@
+version: '2'
+services:
+    node-front:
+        image: node:4.6.0
+        working_dir: /app
+        command: npm start
+        ports:
+            - "4300:4300"
+        environment:
+            - DOMAIN=varsito.com
+        volumes:
+            - ./:/app
